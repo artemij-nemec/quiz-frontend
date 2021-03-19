@@ -1,0 +1,13 @@
+.branch-wrapper {
+  min-height: 170px;
+  background-color: #e1f3e3;
+  padding: 10px;
+  border-radius: 5px;
+}
+.branch-header {
+  text-align: center;
+}
+.default-branch {
+  text-align: center;
+  font-size: 22px;
+}

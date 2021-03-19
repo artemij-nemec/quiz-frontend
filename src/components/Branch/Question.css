@@ -1,0 +1,53 @@
+.answer-wrapper {
+  position: relative;
+  top: 50px;
+  font-size: 20px;
+}
+.answer {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.answer-radio  {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.answer-radio + .answer-illustration {
+  cursor: pointer;
+}
+.answer-radio:checked + .answer-illustration {
+  outline: 2px solid #0c37ff;
+}
+.button-wrapper {
+  height: 40px;
+  width: 100%;
+}
+.button {
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  background: #ffffff;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.button:hover:enabled {
+  background: #cfcfcf;
+  border: 1px solid #a3a3a3;
+  border-radius: 3px;
+  color: white;
+}
+.answer-button {
+  float: right;
+}
+.answer-illustration {
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+.answers-container {
+  display: grid;
+  grid-template-columns: minmax(250px, 1fr);
+  grid-auto-rows: repeat(auto-fill, minmax(330px, 1fr));
+  grid-gap: 10px;
+}
