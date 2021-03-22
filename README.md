@@ -6,8 +6,8 @@ A client-side of test React/Nodejs project
 
 After you prepare your .env you can start installing dependencies on the server with the command below
 
-  yarn install
+    yarn install
 
 After installing you can start server:
 
-  yarn start
+    yarn start
